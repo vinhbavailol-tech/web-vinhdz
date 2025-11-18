@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Dịch Vụ</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .service-content {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+        .service-content h1 {
+            color: #5cb85c;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Trang Chủ</a>
+        <a href="service.html">Thông Tin Dịch Vụ</a>
+        <a href="#contact">Liên Hệ</a>
+    </nav>
+
+    <div class="service-content">
+        <h1>Các Gói Dịch Vụ Của Chúng Tôi</h1>
+        
+        <p>Chúng tôi cung cấp các giải pháp thiết kế web toàn diện, từ cơ bản đến nâng cao:</p>
+
+        <ul>
+            <li>**Gói Cơ Bản:** Thiết kế giao diện tĩnh (HTML/CSS), tối ưu tốc độ.</li>
+            <li>**Gói Chuyên Nghiệp:** Bao gồm Gói Cơ Bản + Lập trình tương tác (JavaScript), tích hợp API.</li>
+            <li>**Gói Doanh Nghiệp:** Gói Chuyên Nghiệp + Hệ thống quản trị nội dung (CMS), bảo mật nâng cao.</li>
+        </ul>
+        
+        <p>Vui lòng đăng ký tại <a href="index.html">Trang Chủ</a> để nhận tư vấn chi tiết!</p>
+    </div>
+
+</body>
+</html>

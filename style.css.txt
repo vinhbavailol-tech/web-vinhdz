@@ -1,0 +1,116 @@
+/* Thiết lập chung cho body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; 
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    min-height: 100vh; 
+    margin: 0;
+}
+
+/* Định dạng container chính của form */
+.registration-form {
+    background-color: #ffffff; /* Nền trắng cho form */
+    padding: 30px 40px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+    width: 100%;
+    max-width: 450px; 
+}
+
+/* Tiêu đề form */
+.registration-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #5cb85c; /* Đường kẻ dưới màu xanh lá */
+    padding-bottom: 10px;
+}
+
+/* Nhóm input (label + input) */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block; 
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Định dạng cho input và select */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #5cb85c; /* Đổi màu viền khi focus */
+    outline: none; 
+}
+
+/* Định dạng cho checkbox */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+/* Nút đăng ký */
+.submit-btn {
+    width: 100%;
+    background-color: #5cb85c; /* Màu nền xanh lá */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #4cae4c; /* Màu xanh đậm hơn khi hover */
+}
+
+/* Định dạng Navigation Bar */
+.navbar {
+    width: 100%;
+    max-width: 450px; /* Giữ menu có cùng chiều rộng với form */
+    background-color: #333; /* Nền tối cho menu */
+    overflow: auto; /* Xử lý các float nếu có */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    border-right: 1px solid #555;
+}
+
+.navbar a:hover {
+    background-color: #5cb85c; /* Màu xanh lá khi hover */
+}

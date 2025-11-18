@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Đăng Ký</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Trang Chủ</a>
+        <a href="service.html">Thông Tin Dịch Vụ</a> 
+        <a href="#contact">Liên Hệ</a>
+    </nav>
+    
+    <div class="registration-form">
+        <h2>Đăng Ký Tài Khoản</h2>
+        
+        <form action="#" method="POST">
+            
+            <div class="form-group">
+                <label for="fullname">Tên Đầy Đủ:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mật Khẩu:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm_password">Xác Nhận Mật Khẩu:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Quốc Gia:</label>
+                <select id="country" name="country">
+                    <option value="vn">Việt Nam</option>
+                    <option value="us">Hoa Kỳ</option>
+                    <option value="jp">Nhật Bản</option>
+                    <option value="other">Khác</option>
+                </select>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Tôi đồng ý với các Điều khoản & Chính sách.</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Đăng Ký</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
